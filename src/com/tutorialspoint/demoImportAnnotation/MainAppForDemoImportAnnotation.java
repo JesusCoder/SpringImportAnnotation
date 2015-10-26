@@ -15,8 +15,7 @@ import com.tutorialspoint.demoCommon.TextEditor;
 public class MainAppForDemoImportAnnotation {
 
 	public static void main(String[] args) {
-		ApplicationContext ctx = new AnnotationConfigApplicationContext(
-				App2Config.class);
+		ApplicationContext ctx = new AnnotationConfigApplicationContext(App2Config.class);
 		// now both beans A and B will be available...
 		App1 app1 = ctx.getBean(App1.class);
 		App2 app2 = ctx.getBean(App2.class);

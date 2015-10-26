@@ -7,8 +7,8 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class App1Config {
 
-    @Bean
-    public App1 app1() {
-        return new App1();
-    }
+	@Bean
+	public App1 app1() {
+		return new App1();
+	}
 }
